@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kaverilista 2</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="links">
+    <a href="index.html">versio 1</a>
+    <a href="versio2.html">versio 2</a>
+  </div>
+
+  <div class="content">
+    <h1>Kaverilista versio 2</h1>
+
+    <div class="controls">
+    <input type="text" id="nameInput" placeholder="Kirjoita nimi">
+    <button onclick="addName()">Lisää</button>
+    <button onclick="removeName()">poista</button>
+    <button onclick="sortNames()">järjestä</button>
+    </div>
+
+    <ol id="nameList"></ol>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
