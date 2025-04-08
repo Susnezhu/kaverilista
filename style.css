@@ -93,3 +93,60 @@ body {
 
 
 
+
+
+
+/* media */
+@media (max-width: 900px) {
+
+    body {
+        font-size: 15px;
+    }
+
+    .content {
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        border-radius: 10px;
+    }
+
+    .start {
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .controls {
+        flex-direction: column;
+    }
+    .control_buttons {
+        display: flex;
+        flex-direction: row;
+        gap: 10px
+    }
+    .control_buttons button{
+        font-size: 20px;
+    }
+}
+
+
+
+@media (max-width: 760px) {
+
+    body {
+        font-size: 15px;
+    }
+    
+    .content {
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+        border-radius: 10px;
+        font-size: 12px;
+    }
+    .control_buttons button{
+        font-size: 20px;
+    }
+
+}
+    
